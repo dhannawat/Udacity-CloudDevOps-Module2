@@ -86,10 +86,9 @@ Resources:
           aws s3 cp s3://mdhannawat-udagram/udacity.zip .
           unzip -o udacity.zip
       ImageId: ami-0fc20dd1da406780b
-      KeyName: EC2 Tutorial
       SecurityGroups:
       - Ref: WebServerSecGroup
-      InstanceType: t2.medium
+      InstanceType: t3.medium
       IamInstanceProfile: 
         Ref: ProfileWithRolesForOurApp
       BlockDeviceMappings:
