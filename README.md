@@ -15,6 +15,6 @@ aws cloudformation update-stack --stack-name UdagramServerCreation --template-bo
 
 ##### 3. Test out the application
 Output parameter was provided. (appending the http) - To test out go to http://Udagr-WebAp-1EPM4BSG5RC4P-2006087772.us-east-2.elb.amazonaws.com
-I will delete the stack on 3/30/2020, to stop incurring the cost. Thereafter the Url will not work. Thanks
+
 
 
